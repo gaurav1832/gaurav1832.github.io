@@ -15,6 +15,30 @@ body {
   background-color: #e1e3e6;
 }
 
+#greeting {
+  display: inline-block;
+  margin-right: 6px;
+  font-weight: 500;
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+  transition: opacity 0.8s ease, transform 0.8s ease, filter 0.8s ease;
+}
+
+/* Fade + slight lift + blur */
+.greeting-out {
+  opacity: 0;
+  transform: translateY(-6px);
+  filter: blur(6px);
+}
+
+/* Smooth re-entry */
+.greeting-in {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
 a {
   text-decoration: none;
   color: #0366d6;
@@ -35,7 +59,7 @@ header {
 .site-title {
   font-size: 28px;
   font-weight: 600;
-  color: #111;
+  color: #0366d6;
 }
 
 nav {
