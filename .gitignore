@@ -1,0 +1,53 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+.Spotlight-V100
+.Trashes
+
+# Dependencies
+/node_modules
+/jspm_packages
+/web_modules
+.pnp
+.pnp.js
+
+# Next.js build and cache outputs
+/.next/
+/out/
+/build
+
+# SWC compiler cache
+.swc/
+
+# Local environment files (contains sensitive API keys)
+.env*.local
+.env
+
+# TypeScript auto-generated definitions
+next-env.d.ts
+*.tsbuildinfo
+
+# Testing coverage
+/coverage
+
+# Vercel deployment metadata
+.vercel
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor configurations (Optional but recommended)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
