@@ -29,6 +29,12 @@ export const works: WorkItem[] = [
   },
 ];
 export const books: BookItem[] = [
+    {
+    title: "The Ineligible Millionaire",
+    author: "Tarun Varshney",
+    cover:
+      "https://m.media-amazon.com/images/I/71HKpBt7-2L._SY522_.jpg",
+  },
   {
     title: "Atomic Habits",
     author: "James Clear",
